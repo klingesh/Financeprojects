@@ -1,0 +1,8 @@
+ticker,name,fiscal_year,price,shares_outstanding,revenue,operating_income,depreciation_amortization,net_income,total_equity,goodwill,intangibles,preferred_equity,minority_interest,cash,total_debt,aum,demat_accounts
+# ILLUSTRATIVE PLACEHOLDER DATA - replace every figure from annual reports before use.
+# Values in whole rupees (not crore) to match EDGAR convention. AUM in whole rupees.
+# Blank cells mean "not available" and are preserved as None - never enter 0 for missing data.
+HDFCAMC,HDFC Asset Management Company (PLACEHOLDER),2025,4500,213000000,35000000000,26000000000,400000000,24000000000,80000000000,0,500000000,0,0,15000000000,0,7500000000000,
+NAM-INDIA,Nippon Life India AMC (PLACEHOLDER),2025,700,632000000,19000000000,13000000000,300000000,12500000000,55000000000,0,300000000,0,0,12000000000,0,5500000000000,
+ABSLAMC,Aditya Birla Sun Life AMC (PLACEHOLDER),2025,750,288000000,14000000000,9000000000,200000000,8500000000,30000000000,0,200000000,0,0,8000000000,0,3800000000000,
+UTIAMC,UTI Asset Management (PLACEHOLDER),2025,1300,127000000,13000000000,6500000000,250000000,6000000000,45000000000,0,150000000,0,0,10000000000,0,3300000000000,

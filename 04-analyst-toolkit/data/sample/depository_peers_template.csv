@@ -1,0 +1,11 @@
+ticker,name,fiscal_year,price,shares_outstanding,revenue,operating_income,depreciation_amortization,net_income,total_equity,goodwill,intangibles,preferred_equity,minority_interest,cash,total_debt,aum,demat_accounts
+# ILLUSTRATIVE PLACEHOLDER DATA - replace every figure from annual reports before use.
+# Values in whole rupees (not crore) to match EDGAR convention.
+# demat_accounts drives the EV-per-account and revenue-per-account metrics.
+# Blank cells mean "not available" and are preserved as None - never enter 0 for missing data.
+CDSL,Central Depository Services (PLACEHOLDER),2025,1500,209000000,10000000000,6000000000,300000000,5000000000,20000000000,0,100000000,0,0,12000000000,0,,150000000
+NSDL,National Securities Depository (PLACEHOLDER),2025,815,200000000,14000000000,4300000000,400000000,3500000000,22000000000,0,150000000,0,0,9000000000,0,,40000000
+BSE,BSE Ltd (PLACEHOLDER),2025,2400,135000000,30000000000,15000000000,900000000,13000000000,40000000000,0,400000000,0,0,25000000000,0,,
+MCX,Multi Commodity Exchange (PLACEHOLDER),2025,5500,51000000,11000000000,5500000000,600000000,5000000000,18000000000,0,300000000,0,0,14000000000,0,,
+CAMS,Computer Age Management Services (PLACEHOLDER),2025,3800,49000000,13000000000,5500000000,700000000,4300000000,12000000000,0,600000000,0,0,6000000000,0,,
+KFINTECH,KFin Technologies (PLACEHOLDER),2025,1100,171000000,10000000000,4000000000,500000000,3000000000,11000000000,1000000000,800000000,0,0,4000000000,0,,

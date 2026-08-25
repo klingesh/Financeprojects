@@ -87,7 +87,7 @@ commodity industry. Both are investable; conflating them is not.*
 | Growth % | | | | | |
 | EBITDA | | | | | |
 | EBITDA margin % | | | | | |
-| [Sector KPI, e.g. EBITDA/tonne] | | | | | |
+| [Sector KPI — e.g. blended yield (bps), revenue per account] | | | | | |
 | EPS | | | | | |
 | FCF | | | | | |
 | Net debt / EBITDA | | | | | |

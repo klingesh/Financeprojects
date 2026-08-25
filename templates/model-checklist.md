@@ -54,12 +54,29 @@ regardless of how sophisticated the rest of it is.
 This section catches the errors that formulas cannot.
 
 - [ ] Forecast margins sit within, or defensibly outside, the historical range
-- [ ] EBITDA per tonne is comparable to history (cement) — flag and justify any deviation
-- [ ] Revenue growth is achievable given the capacity you have modelled
-- [ ] Capex is sufficient to support the volume growth you have assumed
+- [ ] Revenue growth is achievable given the operating base you have modelled
 - [ ] Depreciation is broadly consistent with the asset base and its useful life
 - [ ] Working capital days are stable or the change is deliberate and explained
 - [ ] Tax rate is plausible against the statutory rate
+
+**Fee businesses (CDSL, HDFC AMC)** — see [`../docs/fee-business-modelling.md`](../docs/fee-business-modelling.md)
+
+- [ ] Implied fee per unit (per account, per transaction, per rupee of AUM) is comparable to history — flag and justify any deviation
+- [ ] Blended yield moves with asset mix, not just with headline rate assumptions
+- [ ] AUM growth is split into net flows vs. market appreciation, not a single blended rate
+- [ ] Costs are forecast bottom-up, **not** as a percentage of revenue
+- [ ] Margins expand as the base grows, or you have stated a view on fee compression
+- [ ] Operating cost per unit trends down as scale builds
+- [ ] Other income / treasury returns sit **outside** operating profit
+- [ ] WACC equals cost of equity where there is no debt — no fake weighted calculation
+- [ ] Enterprise value is **below** market cap for a net-cash company
+
+**Banks (Citigroup)** — see [`../docs/bank-valuation-primer.md`](../docs/bank-valuation-primer.md)
+
+- [ ] No EV/EBITDA, no unlevered FCF, no WACC anywhere in the model
+- [ ] Dividends are constrained by CET1 adequacy, not a flat payout assumption
+- [ ] Discount rate is cost of equity
+- [ ] Value below tangible book is expected when ROTE < Ke — not an error to be fixed
 - [ ] Net debt / EBITDA stays within a range a lender would actually accept
 - [ ] Terminal growth rate does not exceed long-run nominal GDP
 - [ ] Exit multiple implies a sane perpetuity growth rate — cross-check it
