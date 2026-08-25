@@ -1,0 +1,30 @@
+{
+  "_note": "SYNTHETIC illustrative data for offline testing. Not real market data.",
+  "as_of": "2024-12-31",
+  "prices": {
+    "C": {
+      "price": 70.0,
+      "shares_outstanding": 1910000000
+    },
+    "JPM": {
+      "price": 280.0,
+      "shares_outstanding": 2870000000
+    },
+    "BAC": {
+      "price": 47.0,
+      "shares_outstanding": 7900000000
+    },
+    "WFC": {
+      "price": 78.0,
+      "shares_outstanding": 3440000000
+    },
+    "GS": {
+      "price": 620.0,
+      "shares_outstanding": 320000000
+    },
+    "MS": {
+      "price": 135.0,
+      "shares_outstanding": 1650000000
+    }
+  }
+}

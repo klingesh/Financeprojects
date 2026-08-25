@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analyst-toolkit"
+version = "0.1.0"
+description = "Comparable company analysis from SEC EDGAR XBRL data. Standard library only."
+readme = "README.md"
+requires-python = ">=3.9"
+
+# No runtime dependencies by design — the toolkit runs on a bare Python install.
+dependencies = []
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.1"]
+
+[project.scripts]
+analyst-toolkit = "analyst_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"

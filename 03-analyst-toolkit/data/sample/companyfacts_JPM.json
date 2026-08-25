@@ -1,0 +1,203 @@
+{
+  "cik": 19617,
+  "entityName": "JPMORGAN CHASE & CO (SYNTHETIC)",
+  "facts": {
+    "us-gaap": {
+      "NetIncomeLoss": {
+        "label": "NetIncomeLoss",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 54000000000
+            }
+          ]
+        }
+      },
+      "StockholdersEquity": {
+        "label": "StockholdersEquity",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 344000000000
+            }
+          ]
+        }
+      },
+      "Goodwill": {
+        "label": "Goodwill",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 53000000000
+            }
+          ]
+        }
+      },
+      "IntangibleAssetsNetExcludingGoodwill": {
+        "label": "IntangibleAssetsNetExcludingGoodwill",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 3500000000
+            }
+          ]
+        }
+      },
+      "PreferredStockValue": {
+        "label": "PreferredStockValue",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 27000000000
+            }
+          ]
+        }
+      },
+      "CashAndDueFromBanks": {
+        "label": "CashAndDueFromBanks",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 27000000000
+            }
+          ]
+        }
+      },
+      "LongTermDebtNoncurrent": {
+        "label": "LongTermDebtNoncurrent",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 390000000000
+            }
+          ]
+        }
+      },
+      "InterestIncomeExpenseNet": {
+        "label": "InterestIncomeExpenseNet",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 92000000000
+            }
+          ]
+        }
+      },
+      "Deposits": {
+        "label": "Deposits",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 2400000000000
+            }
+          ]
+        }
+      },
+      "LoansAndLeasesReceivableNetReportedAmount": {
+        "label": "LoansAndLeasesReceivableNetReportedAmount",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 1320000000000
+            }
+          ]
+        }
+      },
+      "ProvisionForCreditLosses": {
+        "label": "ProvisionForCreditLosses",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 9200000000
+            }
+          ]
+        }
+      },
+      "Assets": {
+        "label": "Assets",
+        "units": {
+          "USD": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 2990000000000
+            }
+          ]
+        }
+      },
+      "WeightedAverageNumberOfDilutedSharesOutstanding": {
+        "label": "WeightedAverageNumberOfDilutedSharesOutstanding",
+        "units": {
+          "shares": [
+            {
+              "fy": 2024,
+              "fp": "FY",
+              "form": "10-K",
+              "end": "2024-12-31",
+              "filed": "2025-02-20",
+              "val": 2870000000
+            }
+          ]
+        }
+      }
+    }
+  }
+}
