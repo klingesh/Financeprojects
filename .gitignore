@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# EDGAR response cache
+.cache/
+**/.cache/
+
+# Excel and office temporary files
+~$*.xlsx
+~$*.xlsm
+~$*.docx
+~$*.pptx
+.~lock.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Generated comps output (regenerate from the CLI)
+comps.csv
+comps.xlsx
+
+# NOTE: model workbooks in */models/ and PDFs in */outputs/ are deliberately
+# NOT ignored. They are the portfolio deliverables and must be committed.
+# Raw filings in */data/ are large; commit selectively or keep them local.
