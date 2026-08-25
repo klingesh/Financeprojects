@@ -5,8 +5,8 @@ Valuation of Citigroup Inc. (NYSE: C) using the financial-institutions toolkit.
 **Reporting basis:** US GAAP · **calendar** fiscal year · figures in **US$ millions**
 
 > **Read [`../docs/bank-valuation-primer.md`](../docs/bank-valuation-primer.md) before starting.**
-> Everything from the UltraTech project about EV/EBITDA, unlevered free cash flow and LBO analysis is
-> **inapplicable to a bank.** Understanding why is the purpose of this project.
+> Everything from the CDSL and HDFC AMC projects about EV/EBITDA, unlevered free cash flow and LBO
+> analysis is **inapplicable to a bank.** Understanding why is the purpose of this project.
 
 ---
 
@@ -158,7 +158,7 @@ bank capital and credit metrics move quarter to quarter.
 | Citigroup investor relations — quarterly financial supplement | **Most useful single document.** Segment detail, per-share metrics, capital ratios in one place. |
 | Quarterly earnings presentations | Management framing, targets |
 | Federal Reserve stress test disclosures | Capital requirements, stress capital buffer |
-| `../03-analyst-toolkit/` | Automated peer data pull from EDGAR |
+| [`../04-analyst-toolkit/`](../04-analyst-toolkit/) | Automated peer data pull from EDGAR |
 
 Store filings in `data/`.
 

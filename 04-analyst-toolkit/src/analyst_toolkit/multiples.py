@@ -113,6 +113,60 @@ def net_debt_ebitda(
     return safe_div(nd, ebitda)
 
 
+# -- Sector-specific metrics ---------------------------------------------
+#
+# Every sector has a multiple that reveals whether the analyst understands the
+# business. These are the ones this portfolio uses.
+
+
+def price_to_aum(
+    mkt_cap: Optional[float], aum: Optional[float]
+) -> Optional[float]:
+    """Market cap as a fraction of assets under management.
+
+    The dominant asset-manager multiple, and the basis on which AMC
+    acquisitions are actually priced. Returned as a decimal fraction — render
+    as a percentage.
+
+    Interpretation requires care: a manager with a higher equity mix should
+    trade at a higher P/AUM because each unit of its AUM earns more fee. Never
+    compare P/AUM across peers without also comparing asset mix and blended
+    yield. A low P/AUM on a liquid-fund-heavy book is not cheap.
+    """
+    return safe_div(mkt_cap, aum)
+
+
+def revenue_yield_on_aum(
+    revenue: Optional[float], aum: Optional[float]
+) -> Optional[float]:
+    """Blended fee yield as a decimal fraction of AUM.
+
+    Multiply by 10,000 for basis points. This is the context required to read
+    P/AUM correctly.
+    """
+    return safe_div(revenue, aum)
+
+
+def ev_per_unit(ev: Optional[float], units: Optional[float]) -> Optional[float]:
+    """Enterprise value per unit of the operating base.
+
+    Capitalised value of each unit — demat accounts for a depository, tonnes of
+    capacity for a cement producer.
+    """
+    return safe_div(ev, units)
+
+
+def revenue_per_unit(
+    revenue: Optional[float], units: Optional[float]
+) -> Optional[float]:
+    """Revenue per unit of the operating base — monetisation intensity.
+
+    Reveals pricing power directly. In a regulated business this is where fee
+    compression shows up first.
+    """
+    return safe_div(revenue, units)
+
+
 # -- Peer statistics ------------------------------------------------------
 
 

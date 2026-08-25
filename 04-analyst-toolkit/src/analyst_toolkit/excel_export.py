@@ -17,7 +17,11 @@ MULTIPLE_LABELS = {
     "P/TBV",
     "Net debt/EBITDA",
 }
-PERCENT_LABELS = {"EBITDA margin", "ROTE"}
+PERCENT_LABELS = {"EBITDA margin", "ROTE", "P/AUM"}
+
+# Rendered as a plain number to one decimal place — basis points and per-unit
+# currency figures are neither multiples nor percentages.
+DECIMAL_LABELS = {"Blended yield (bps)", "EV per account", "Revenue per account"}
 
 
 def format_value(label: str, value: Any) -> str:
@@ -31,6 +35,8 @@ def format_value(label: str, value: Any) -> str:
         return "{0:.1f}%".format(value * 100)
     if label in MULTIPLE_LABELS:
         return "{0:.1f}x".format(value)
+    if label in DECIMAL_LABELS:
+        return "{0:,.1f}".format(value)
     if abs(value) >= 1000:
         return "{0:,.0f}".format(value)
     return "{0:,.2f}".format(value)
@@ -116,6 +122,8 @@ def write_xlsx(
                     cell.number_format = "0.0%"
                 elif label in MULTIPLE_LABELS:
                     cell.number_format = '0.0"x"'
+                elif label in DECIMAL_LABELS:
+                    cell.number_format = "#,##0.0"
                 else:
                     cell.number_format = "#,##0"
             elif isinstance(value, str) and value in ("MEDIAN", "MEAN", "MIN", "MAX"):

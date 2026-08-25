@@ -117,10 +117,13 @@ stack of nested `IF`s.
 
 ## Units and Labelling
 
-- State units in **every** row label: `Revenue (₹ crore)`, `Volume (mt)`, `Realisation (₹/tonne)`.
+- State units in **every** row label: `Revenue (₹ crore)`, `AUM (₹ crore)`, `Yield (bps)`,
+  `Demat accounts (mn)`.
 - Never mix units within a row.
-- Note the currency and scale in the tab header. UltraTech reports in ₹ crore; Citigroup in
+- Note the currency and scale in the tab header. CDSL and HDFC AMC report in ₹ crore; Citigroup in
   US$ millions. Do not let these meet without an explicit, labelled conversion.
+- **Basis points are a trap.** A yield of 47 bps is `0.0047` as a decimal. Decide whether a row holds
+  bps or decimals, label it, and never mix the two in one calculation chain.
 - Percentages formatted as percentages, not decimals.
 - Negative numbers in parentheses, financial convention: `(1,234)`.
 
